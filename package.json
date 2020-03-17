@@ -34,20 +34,20 @@
 			}
 		],
 		"configuration": {
-      "title": "Codeforces",
-      "properties": {
-        "Codeforces.username": {
-          "type": "string",
-          "default": "",
-          "description": "your username"
+			"title": "Codeforces",
+			"properties": {
+				"Codeforces.username": {
+					"type": "string",
+					"default": "",
+					"description": "your username"
 				},
 				"Codeforces.password": {
-          "type": "string",
-          "default": "",
-          "description": "your password"
-        }
-      }
-    }
+					"type": "string",
+					"default": "",
+					"description": "your password"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -63,8 +63,8 @@
 		"@types/vscode": "^1.38.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
-		"typescript": "^3.3.1",
 		"tslint": "^5.12.1",
+		"typescript": "^3.3.1",
 		"vscode-test": "^1.2.0"
 	}
 }
